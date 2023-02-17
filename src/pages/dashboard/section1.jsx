@@ -12,7 +12,10 @@ import Header from "../../components/header";
 const Section1 = () => {
   return (
     <>
-      <div className="bg-[url('assets/mainback.png')] w-[100vw] xl:w-[1440px] h-[300vh] mt-[-360px] absolute bg-no-repeat" style={{zIndex: '-100'}}></div>
+      <div
+        className="bg-[url('assets/mainback.png')] w-[100vw] xl:w-[1440px] h-[300vh] mt-[-360px] absolute bg-no-repeat"
+        style={{ zIndex: "-100" }}
+      ></div>
       <div className="min-[980px]:pl-[72px] block min-[980px]:flex bg-cover z-10">
         <div className="text-white w-full min-[980px]:w-[50%]">
           <Header />
@@ -22,8 +25,9 @@ const Section1 = () => {
                 NFTs&nbsp;
               </span>
               on&nbsp;
-              <span className="text-[#3A9069] font-black">Layer2</span> <br /> are broken.{" "}
-              <br /> We are here to <br /> fix this.
+              <span className="text-[#3A9069] font-black">
+                Layer2
+              </span> <br /> are broken. <br /> We are here to <br /> fix this.
             </p>
           </div>
           <div className="text-[16px] sm:text-[20px] md:text-[16px] lg:text-[20px] xl:text-[24px] my-[24px] text-center min-[980px]:text-left">
@@ -31,19 +35,12 @@ const Section1 = () => {
             <p>toolsets and utilities for NFT creators and</p>
             <p>collectors on Layer2 Ethereum</p>
           </div>
-          <div className="lg:text-[20px] xl:text-[24px] min-[980px]:my-[60px] text-center min-[980px]:text-left flex sm:block justify-center gap-5 sm:gap-0">
-            <button
-              className="border-2 border-[#258723] rounded-[50px] w-[140px] lg:w-[180px] xl:w-[241px] h-[77px] transition ease-in-out hover:bg-[#258723]"
-              onClick={() => {
-                window.location.href = "mailto:team@lfgrowww.com";
-              }}
-            >
-              Email us
+          <div className="mt-[60px] lg:text-[20px] xl:text-[24px] text-center min-[980px]:text-left flex justify-center min-[980px]:justify-start gap-5">
+            <button className="border-2 border-[#258723] rounded-[50px] w-[140px] lg:w-[180px] xl:w-[241px] h-[77px] transition ease-in-out hover:bg-[#258723]">
+              <a href="mailto:team@layer2nfts.org">Email us</a>
             </button>
-            <button className="border-2 border-[#258723] rounded-[50px] w-[140px] lg:w-[180px] xl:w-[241px] h-[77px] md:mx-[30px] transition ease-in-out hover:bg-[#258723]" onClick={() => {
-              window.location.href = "mailto:team@lfgrowww.com";
-            }}>
-              Register
+            <button className="border-2 border-[#258723] rounded-[50px] w-[140px] lg:w-[180px] xl:w-[241px] h-[77px] transition ease-in-out hover:bg-[#258723]">
+              <a href="mailto:team@layer2nfts.org">Register</a>
             </button>
           </div>
           <div className="flex gap-6 md:gap-12 items-center mt-[60px] justify-center min-[980px]:justify-start">
