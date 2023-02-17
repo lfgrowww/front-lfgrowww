@@ -11,10 +11,9 @@ import Header from "../../components/header";
 
 const Section1 = () => {
   return (
-    // bg-[url('assets/mainback.png')]
     <>
-      <div className="bg-[url('assets/Group3.png')] w-[100vw] xl:w-[1440px] h-[300vh] mt-[-360px] absolute bg-no-repeat"></div>
-      <div className="md:pl-[72px] block md:flex bg-cover">
+      <div className="bg-[url('assets/mainback.png')] w-[100vw] xl:w-[1440px] h-[300vh] mt-[-360px] absolute bg-no-repeat" style={{zIndex: '-100'}}></div>
+      <div className="md:pl-[72px] block md:flex bg-cover z-10">
         <div className="text-white w-full md:w-[50%]">
           <Header />
           <div className="font-bold text-[40px] sm:text-[70px] md:text-[40px] lg:text-[50px] 2xl:text-[72px] font-bold mt-[95px] text-center md:text-left">
@@ -23,7 +22,7 @@ const Section1 = () => {
                 NFTs&nbsp;
               </span>
               on&nbsp;
-              <span className="text-[#3A9069]">Layer2</span> <br /> are broken.{" "}
+              <span className="text-[#3A9069] font-black">Layer2</span> <br /> are broken.{" "}
               <br /> We are here to <br /> fix this.
             </p>
           </div>

@@ -5,10 +5,10 @@ import Footer from './footer';
 
 const Layout = ({children}) => {
   return (
-    <div className="m-auto bg-black font-Poppins" >
-      {/* <Header/> */}
+    <div className="m-auto font-Poppins bg-no-repeat" >
+        {/* <Header/> */}
         {children}
-      <Footer/>
+        <Footer/>
     </div>
   )
 }
